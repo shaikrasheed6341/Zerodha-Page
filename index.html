@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zerodha</title>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <div class="container">
+        <div class="img">
+            <img src="logo.svg" alt="logo" width="100" height="15"></img>
+        </div>
+        <div class="left">
+            <div class="word">Signup</div>
+            <div class="word">Products</div>
+            <div class="word">Pricing</div>
+            <div class="word">About</div>
+            <div class="word">Support</div>
+        </div>
+    </div>
+
+
+    <br></br><br></br>
+    <div class="background">
+        <img src="./landing.png" alt="landing page" width="800">
+    </div>
+    <br></br>
+    <div>
+        <h1 class="h1">
+            Invest in everything
+        </h1>
+    </div>
+    <div>
+        <h4 class="h4">
+            Online platform to invest in stocks, derivatives, mutual funds, and more
+        </h4>
+    </div>
+    <div class="press">
+        <button class="button"><B>Sign up now </b></button>
+    </div>
+    <div class="sum">
+        <h1 id="head">Interest calculation</h1>
+        <div class="input">
+            <div>
+                <input class="firstvalue"  onsubmit="return validateForm()"inputmode="numeric" placeholder="Amount..."></input>
+            </div>
+            <div>
+                <input class="secondvalue" inputmode="numeric" placeholder="Rate..."></input>
+
+            </div>
+        </div>
+        <div>
+
+            <form>
+                <select class="years" name="years">
+                    <option value="1">1 Years</option>
+                    <option value="2">2 Years</option>
+                    <option value="2">4 Years</option>
+                    <option value="2">5 Years</option>
+                    <option value="2">6 Years</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <button id="resultbutton">result</button>
+        </div>
+        <div>
+            <input class="result" placeholder="result"></input>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
